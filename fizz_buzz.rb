@@ -9,10 +9,11 @@ while count <= top_end
   elsif count % 5 == 0
     count += 1
     puts "Fizz"
-    elsif count % 3 == 0
-      count += 1
-      puts "Buzz"
-    else
-      count += 1
+  elsif count % 3 == 0
+    count += 1
+    puts "Buzz"
+  else
+    p count
+    count += 1
     end
   end
